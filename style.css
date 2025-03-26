@@ -1,0 +1,96 @@
+/* 基础样式 */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 头部 */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* 导航栏 */
+nav {
+    background: #34495e;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+/* 主内容区 */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#posts {
+    flex: 2;
+    min-width: 300px;
+}
+
+.post {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.post .meta {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+/* 侧边栏 */
+#sidebar {
+    flex: 1;
+    min-width: 250px;
+}
+
+.widget {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* 页脚 */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #34495e;
+    color: white;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}

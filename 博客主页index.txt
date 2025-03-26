@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的技术博客</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>我的博客</h1>
+            <p>分享技术与生活</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="#about">关于</a></li>
+            <li><a href="#contact">联系</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section id="posts">
+            <article class="post">
+                <h2><a href="articles/post1.html">如何学习Python</a></h2>
+                <p class="meta">发布于: 2023-10-01 | 标签: 编程</p>
+                <p>Python是一种强大的编程语言，适合初学者...</p>
+            </article>
+            <article class="post">
+                <h2><a href="articles/post2.html">CSS布局技巧</a></h2>
+                <p class="meta">发布于: 2023-10-05 | 标签: 前端</p>
+                <p>Flexbox和Grid是现代CSS布局的核心...</p>
+            </article>
+        </section>
+
+        <aside id="sidebar">
+            <div class="widget">
+                <h3>关于我</h3>
+                <p>一名热爱技术的开发者，专注Web开发与AI。</p>
+            </div>
+            <div class="widget">
+                <h3>标签</h3>
+                <ul>
+                    <li><a href="#">编程</a></li>
+                    <li><a href="#">前端</a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 我的博客. 使用 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> 部署.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
